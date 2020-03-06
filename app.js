@@ -7,10 +7,6 @@ let options = {
     handler: function (response) {
        alert(response.razorpay_payment_id)
            },
-    prefill: {
-         "contact" : '+919999999999',
-        "email" : "test@test.com"
-    },
 		
     notes: {
        address : "hello world"
